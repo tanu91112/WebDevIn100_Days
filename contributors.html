@@ -9,6 +9,388 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <style>
+    /* Contributors Page Specific Styles - Cosmic Theme */
+    body {
+      background: linear-gradient(135deg, #0a0a23 0%, #1a1a3a 50%, #2d1b69 100%);
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Cosmic background with stars */
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: 
+        radial-gradient(2px 2px at 20px 30px, #eee, transparent),
+        radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
+        radial-gradient(1px 1px at 90px 40px, #fff, transparent),
+        radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.6), transparent),
+        radial-gradient(2px 2px at 160px 30px, #ddd, transparent);
+      background-repeat: repeat;
+      background-size: 200px 100px;
+      animation: twinkle 4s ease-in-out infinite alternate;
+      z-index: -1;
+    }
+
+    @keyframes twinkle {
+      0% { opacity: 0.3; }
+      100% { opacity: 0.8; }
+    }
+
+    /* Nebula effects */
+    body::after {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: 
+        radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%);
+      z-index: -1;
+    }
+
+    .contributors-section {
+      padding: 4rem 2rem;
+      min-height: 80vh;
+      position: relative;
+    }
+
+    .contributors-title {
+      text-align: center;
+      color: white;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 20px rgba(255, 255, 255, 0.5); }
+      to { text-shadow: 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.3); }
+    }
+
+    .contributors-subtitle {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 1.2rem;
+      margin-bottom: 3rem;
+    }
+
+    .contributors-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 0;
+    }
+
+    .contributor-card {
+      background: linear-gradient(145deg, rgba(15, 15, 35, 0.4), rgba(25, 15, 55, 0.3)), url('public/background.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 20px;
+      padding: 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      border: 2px solid transparent;
+      background-clip: padding-box;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(5px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Glowing border effect */
+    .contributor-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 20px;
+      padding: 2px;
+      background: linear-gradient(45deg, #667eea, #764ba2, #f093fb, #f5576c);
+      background-size: 400% 400%;
+      animation: borderGlow 3s ease infinite;
+      mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      mask-composite: exclude;
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+    }
+
+    @keyframes borderGlow {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .contributor-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
+    }
+
+    .contributor-card:hover::before {
+      animation: borderGlow 1s ease infinite;
+    }
+
+    /* Cosmic particles inside cards */
+    .contributor-card::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: 
+        radial-gradient(1px 1px at 20px 30px, rgba(255,255,255,0.3), transparent),
+        radial-gradient(1px 1px at 40px 70px, rgba(255,255,255,0.25), transparent),
+        radial-gradient(1px 1px at 60px 20px, rgba(255,255,255,0.2), transparent),
+        radial-gradient(1px 1px at 80px 50px, rgba(255,255,255,0.35), transparent),
+        radial-gradient(1px 1px at 100px 80px, rgba(255,255,255,0.2), transparent);
+      background-size: 120px 100px;
+      pointer-events: none;
+      opacity: 0.8;
+    }
+
+    .contributor-avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 0 auto 1.5rem;
+      border: 3px solid rgba(102, 126, 234, 0.3);
+      transition: all 0.3s ease;
+      position: relative;
+      z-index: 2;
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .contributor-card:hover .contributor-avatar {
+      border-color: #667eea;
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(102, 126, 234, 0.5);
+    }
+
+    .contributor-name {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: white;
+      margin-bottom: 0.5rem;
+      position: relative;
+      z-index: 2;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8), 0 0 8px rgba(0, 0, 0, 0.6);
+    }
+
+    .contributor-username {
+      font-size: 0.9rem;
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 1rem;
+      position: relative;
+      z-index: 2;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7), 0 0 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .contributor-contributions {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+      display: inline-block;
+      position: relative;
+      z-index: 2;
+      box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    }
+
+    .contributor-links {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    .contributor-btn {
+      padding: 0.5rem 1rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-size: 0.8rem;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      border: 2px solid transparent;
+    }
+
+    .btn-github {
+      background: rgba(20, 20, 40, 0.9);
+      color: white;
+      border: 2px solid rgba(102, 126, 234, 0.3);
+      backdrop-filter: blur(5px);
+    }
+
+    .btn-github:hover {
+      background: #000;
+      border-color: #667eea;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+
+
+    .join-card {
+      background: linear-gradient(135deg, rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8));
+      color: white;
+      border-radius: 20px;
+      padding: 3rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      border: 2px solid transparent;
+      background-clip: padding-box;
+      backdrop-filter: blur(10px);
+    }
+
+    .join-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 20px;
+      padding: 2px;
+      background: linear-gradient(45deg, #667eea, #764ba2, #f093fb, #f5576c);
+      background-size: 400% 400%;
+      animation: borderGlow 2s ease infinite;
+      mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      mask-composite: exclude;
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+    }
+
+    .join-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 25px 50px rgba(102, 126, 234, 0.4);
+    }
+
+    .join-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .join-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      animation: pulse 2s infinite;
+    }
+
+    .join-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .join-description {
+      margin-bottom: 2rem;
+      opacity: 0.9;
+    }
+
+    .join-btn {
+      background: white;
+      color: #667eea;
+      padding: 0.75rem 2rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+
+    .join-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
+    }
+
+    .loading-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 400px;
+    }
+
+    .loading-spinner {
+      width: 50px;
+      height: 50px;
+      border: 4px solid rgba(255, 255, 255, 0.3);
+      border-top: 4px solid #667eea;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    .error-container {
+      text-align: center;
+      padding: 3rem;
+      background: rgba(26, 26, 58, 0.8);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      border: 2px solid rgba(231, 76, 60, 0.5);
+      backdrop-filter: blur(10px);
+    }
+
+    .error-icon {
+      font-size: 3rem;
+      color: #e74c3c;
+      margin-bottom: 1rem;
+    }
+
+    .error-container h3 {
+      color: white;
+      margin-bottom: 1rem;
+    }
+
+    .error-container p {
+      color: rgba(255, 255, 255, 0.8);
+      margin-bottom: 2rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .contributors-title {
+        font-size: 2.5rem;
+      }
+
+      .contributors-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 1rem;
+      }
+
+      .contributor-card {
+        padding: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .contributors-section {
+        padding: 2rem 1rem;
+      }
+
+      .contributors-title {
+        font-size: 2rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <!-- Navbar -->
@@ -45,23 +427,18 @@
       </div>
     </div>
   </nav>
-  <br><br>
-  <div class="content" id="contributors-section">
-    <div class="title is-2 has-text-centered" id="title-heading">
-      Contributors
-    </div>
-    <p class="subtitle has-text-centered has-text-white">
-      Meet the amazing people who have contributed to this project!
-    </p>
-    <div class="columns is-multiline is-centered" id="contributors-container">
-      <!-- Contributors will be loaded dynamically -->
-      <div class="column is-full has-text-centered">
-        <div class="notification is-info is-light">
-          <p>Loading contributors...</p>
-        </div>
+
+  <!-- Contributors Section -->
+  <section class="contributors-section">
+    <h1 class="contributors-title">Contributors</h1>
+    <p class="contributors-subtitle">Meet the amazing people who have contributed to this project!</p>
+    <div class="contributors-grid" id="contributors-container">
+      <!-- Loading state -->
+      <div class="loading-container">
+        <div class="loading-spinner"></div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Footer -->
   <footer class="custom-footer">
@@ -117,22 +494,18 @@
         if (response.ok) {
           container.innerHTML = '';
           
-          contributors.forEach(contributor => {
+          contributors.forEach((contributor, index) => {
             const contributorCard = `
-              <div class="column is-one-quarter">
-                <div class="card">
-                  <div class="card-image has-text-centered pt-4">
-                    <figure class="image is-128x128 is-inline-block">
-                      <img class="is-rounded" src="${contributor.avatar_url}" alt="${contributor.login}">
-                    </figure>
+              <div class="contributor-card" style="animation: fadeInUp 0.6s ease-out ${index * 0.1}s both;">
+                <img class="contributor-avatar" src="${contributor.avatar_url}" alt="${contributor.login}" loading="lazy">
+                <h3 class="contributor-name">${contributor.login}</h3>
+                <p class="contributor-username">@${contributor.login}</p>
+                <div class="contributor-contributions">${contributor.contributions} contributions</div>
+                                  <div class="contributor-links">
+                    <a href="${contributor.html_url}" target="_blank" class="contributor-btn btn-github">
+                      <i class="fab fa-github"></i> GitHub
+                    </a>
                   </div>
-                  <div class="card-content has-text-centered">
-                    <p class="title is-5">${contributor.login}</p>
-                    <p class="subtitle is-6">@${contributor.login}</p>
-                    <p class="has-text-grey">${contributor.contributions} contributions</p>
-                    <a href="${contributor.html_url}" target="_blank" class="button is-link is-small">GitHub</a>
-                  </div>
-                </div>
               </div>
             `;
             container.innerHTML += contributorCard;
@@ -140,16 +513,16 @@
           
           // Add call-to-action card at the end
           const callToActionCard = `
-            <div class="column is-one-quarter">
-              <div class="card has-background-primary">
-                <div class="card-content has-text-centered">
-                  <div class="content">
-                    <p class="title is-5 has-text-white">Join Us!</p>
-                    <p class="subtitle is-6 has-text-white">Become a Contributor</p>
-                    <p class="has-text-white">Help us build amazing web projects</p>
-                    <a href="https://github.com/ruchikakengal/WebDevIn100_Days" target="_blank" class="button is-white is-outlined is-small">Contribute</a>
-                  </div>
+            <div class="join-card" style="animation: fadeInUp 0.6s ease-out ${contributors.length * 0.1 + 0.2}s both;">
+              <div class="join-content">
+                <div class="join-icon">
+                  <i class="fas fa-heart"></i>
                 </div>
+                <h3 class="join-title">Join Our Community!</h3>
+                <p class="join-description">Become a contributor and help us build amazing web projects together</p>
+                <a href="https://github.com/ruchikakengal/WebDevIn100_Days" target="_blank" class="join-btn">
+                  <i class="fas fa-plus"></i> Start Contributing
+                </a>
               </div>
             </div>
           `;
@@ -161,11 +534,15 @@
       } catch (error) {
         console.error('Error fetching contributors:', error);
         container.innerHTML = `
-          <div class="column is-full has-text-centered">
-            <div class="notification is-danger is-light">
-              <p>Unable to load contributors at the moment. Please try again later.</p>
-              <a href="https://github.com/ruchikakengal/WebDevIn100_Days/graphs/contributors" target="_blank" class="button is-danger is-small">View on GitHub</a>
+          <div class="error-container">
+            <div class="error-icon">
+              <i class="fas fa-exclamation-triangle"></i>
             </div>
+            <h3>Unable to load contributors</h3>
+            <p>Please try again later or check your internet connection.</p>
+            <a href="https://github.com/ruchikakengal/WebDevIn100_Days/graphs/contributors" target="_blank" class="join-btn">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
           </div>
         `;
       }
