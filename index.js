@@ -123,13 +123,14 @@ function fillTable() {
         ["Day 21", "Candy Crush", "public/Day-21_candycrush/candy_crush.html"],
 
         ["Day 22", "Palette Generator", "public/Day-22_Palette_generator/index.html"],
+
         ["Day 23","Rock Paper Scissor Game" ,"public/Day-23_RockPaperScissor/index.html" ]];
 
         ["Day 22", "QR Code Generator", "/public/Day-22_QRCodeGenerator/index.html"],
         ["Day 23", "Palette Generator", "public/Day-22_Palette_generator/index.html"],
-        ["Day 24","Rock Paper Scissor Game" ,"public/Day-23_RockPaperScissor/index.html" ]];
+        ["Day 24","Rock Paper Scissor Game" ,"public/Day-23_RockPaperScissor/index.html" ]
+        ["Day25"," Portfolio", " https://priyacodesarts.netlify.app/"]];
 
-    
 
 
 
