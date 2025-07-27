@@ -51,7 +51,7 @@ Just open  in your browser. No servers are required.
 - No internet needed, works offline
 
 ----
-# Creator : Reeteesha Roy
+## Creator : Reeteesha Roy
 
 ---
 ⚠️ Disclaimer
