@@ -1,6 +1,6 @@
 #  Word Guess – A Wordle-Inspired Game
 
-A fun, interactive 5-letter word guessing game built using **only HTML, CSS, and JavaScript** — no frameworks, no external libraries, no APIs. Inspired by Wordle, this version includes crossword-style hints and supports both keyboard and on-screen input.
+A fun, interactive 5-letter word guessing game built using **only HTML, CSS, and JavaScript**. Inspired by Wordle, this version includes crossword-style hints and supports both keyboard and on-screen input.
 
 ---
 
