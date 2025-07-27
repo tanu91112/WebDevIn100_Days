@@ -58,7 +58,7 @@ class AlienPortalGame {
         this.setupSettingsListeners();
         this.initializeAudio();
         this.updateDisplay();
-        this.showGameOverlay('Alien Portal Escape', 'Click aliens to catch them before they escape!');
+        this.showGameOverlay('Alien Hunt', 'Click aliens to catch them before they escape!');
     }
 
     setupSettingsListeners() {
