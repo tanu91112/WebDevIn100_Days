@@ -427,7 +427,9 @@ body.dark-theme #scrollBtn:hover {
   background-color: #34495e;
   transform: scale(1.1);
 }
-
+body.dark-theme .subtitle has-text-centered{
+  color: #fff;
+}
 /*........................................................................................................................*/
 
 /* Light theme styles */
@@ -732,14 +734,41 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background-color: #222;
   color: #fff;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
 }
 
 .icon-link:hover {
-  background-color: #000;
   transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Instagram - gradient pink/orange */
+.icon-link[href*="instagram"] {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.icon-link[href*="instagram"]:hover {
+  background: linear-gradient(45deg, #e6683c 0%, #dc2743 25%, #cc2366 50%, #bc1888 75%, #a91ea4 100%);
+}
+
+/* GitHub - theme teal */
+.icon-link[href*="github"] {
+  background-color: #1abc9c;
+}
+
+.icon-link[href*="github"]:hover {
+  background-color: #16a085;
+}
+
+/* LinkedIn - theme blue */
+.icon-link[href*="linkedin"] {
+  background-color: #3498db;
+}
+
+.icon-link[href*="linkedin"]:hover {
+  background-color: #2980b9;
 }
 
 .icon-svg {
@@ -837,4 +866,12 @@ body {
 .arrow-up-icon {
   width: 20px;
   height: 20px;
+}
+body.light-theme .subtitle has-text-centered{
+  color: black;
+}
+.vertical-links {
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  gap: 0.5rem;
 }

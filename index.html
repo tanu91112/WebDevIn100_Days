@@ -79,45 +79,6 @@
     /* Slightly enlarge */
   }
 
-  .contributors-btn {
-    background: linear-gradient(45deg, #10866f, );
-    color: white;
-    padding: 10px 20px;
-    /* Adjust padding to make the button rectangular */
-    font-size: 0.8rem;
-    /* Font size */
-    font-weight: bold;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-    /* Optional: Rounded corners */
-    position: absolute;
-    top: 60px;
-    /* Shifted slightly upwards */
-    right: 6px;
-    transition: background 0.3s ease, transform 0.2s ease,
-      box-shadow 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    text-align: center;
-    display: inline-block;
-    z-index: 10;
-    /* Ensures the button stays on top */
-    font-family: "Circular Std", "Arial", sans-serif;
-    /* Circular font */
-  }
-
-  .contributors-btn:hover {
-    background: linear-gradient(45deg, #16a085, #1abc9c);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-  }
-
-  .contributors-btn:active {
-    transform: translateY(0);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-
   #title-heading {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -163,10 +124,10 @@
   <!-- Main Page Starts Here -->
   <div class="content" id="projects">
     <div class="title is-2 has-text-centered" id="title-heading">
-      Web_Dev_In_100_Days
+        Web_Dev_In_100_Days
     </div>
-    <p class="subtitle has-text-centered" style="color: black">
-      here are live demos of all the projects
+    <p class="subtitle has-text-centered" style="font: weight 300px;">
+      Here are live demos of all the projects
     </p>
 
     <div id="search-bar">
@@ -232,7 +193,7 @@
       </div>
 
       <!-- Navigation Buttons -->
-      <div class="nav-links">
+      <div class="nav-links vertical-links">
         <a href="#" class="nav-btn home-btn">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" class="nav-icon"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
           Home
