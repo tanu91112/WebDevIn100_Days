@@ -123,26 +123,16 @@ function fillTable() {
         ["Day 21", "Candy Crush", "public/Day-21_candycrush/candy_crush.html"],
         ["Day 22", "QR Code Generator", "/public/Day-22_QRCodeGenerator/index.html"],
         ["Day 23", "Palette Generator", "public/Day-22_Palette_generator/index.html"],
-
-
-        ["Day 22", "Palette Generator", "public/Day-22_Palette_generator/index.html"],
-
-
-
-        ["Day 23", "QR Code Generator", "/public/Day-22_QRCodeGenerator/index.html"],
         ["Day 24", "Palette Generator", "public/Day-22_Palette_generator/index.html"],
-        ["Day25", " Portfolio", " https://priyacodesarts.netlify.app/"],
+        ["Day 25", " Portfolio", " https://priyacodesarts.netlify.app/"],
         ["Day 26", "GiggleBits", "public/GiggleBits/index.html"],
-        ["Day 22", "Palette Generator", "public/Day-22_Palette_generator/index.html"],
-        ["Day 23", "QR Code Generator", "public/Day-23_QRCodeGenerator/index.html"],
-        ["Day 25"," Portfolio", " https://priyacodesarts.netlify.app/"],
         ["Day 28", "Target Reflex Test", "public/Day-28_Target_Reflex_Test/index.html"],
         ["Day 29", "Snake And Ladder Game", "public/Snake-and-Ladder-Game/index.html"],
         ["Day 30", "Note Taker", "public/Day-42_NoteTaker/index.html"],
-
         ["Day 31", "👾Alien Hunt", "public/Day-31/index.html"],
-
-         ["Day 32","Rock Paper Scissor Game" ,"public/Day-23_RockPaperScissor/index.html" ]
+        ["Day 32","Rock Paper Scissor Game" ,"public/Day-23_RockPaperScissor/index.html" ],
+        ["Day 34", "Colour Picker", "public/Day-34-Colour_picker/index.html"],
+        ["Day 32","Drawing" ,"public/Day-35-Drawing/index.html" ],
 
     ];
 
