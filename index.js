@@ -133,7 +133,7 @@ function fillTable() {
         ["Day 32","Rock Paper Scissor Game" ,"public/Day-23_RockPaperScissor/index.html" ],
         ["Day 34", "Colour Picker", "public/Day-34-Colour_picker/index.html"],
         ["Day 32","Drawing" ,"public/Day-35-Drawing/index.html" ],
-
+        ["Day 33", "Etch-a-Sketch" ,"./public/Etch-a-Sketch/index.html"],
     ];
 
 
