@@ -61,7 +61,7 @@ function updateNavbar() {
             </span>
             <span>GitHub</span>
         </a>
-        <a class="button is-primary is-dark" href="contributors/contributor.html">
+        <a class="button is-primary is-dark" href="contributors.html">
             <span class="icon">
                 <i class="fas fa-users"></i>
             </span>
@@ -76,7 +76,7 @@ function updateNavbar() {
         });
     } else {
         buttons.innerHTML = `
-        <a class="button is-primary is-dark" href="contributors/contributor.html">
+        <a class="button is-primary is-dark" href="contributors.html">
             <span class="icon">
                 <i class="fas fa-users"></i>
             </span>
@@ -121,17 +121,21 @@ function fillTable() {
         ["Day 19", "URL Shortener", "https://github.com/ANTIK-007/URL-Shortener"], /* folder Not there */
         ["Day 20", "TicTacToe Game", "/public/Day-20_tictactoe/index.html"],
         ["Day 21", "Candy Crush", "public/Day-21_candycrush/candy_crush.html"],
-
-        ["Day 22", "Palette Generator", "public/Day-22_Palette_generator/index.html"],
-
-        ["Day 23", "QR Code Generator", "/public/Day-22_QRCodeGenerator/index.html"],
+        ["Day 22", "QR Code Generator", "/public/Day-22_QRCodeGenerator/index.html"],
+        ["Day 23", "Palette Generator", "public/Day-22_Palette_generator/index.html"],
         ["Day 24", "Palette Generator", "public/Day-22_Palette_generator/index.html"],
-      ["Day25"," Portfolio", " https://priyacodesarts.netlify.app/"],
-      ["Day26"," Periodic Table", "https://learn-periodic-table.netlify.app/"],
-      ["Day27"," Book Recommendation", "https://book-recomendation.netlify.app/"],
-
-    ];
-
+        ["Day 25", " Portfolio", " https://priyacodesarts.netlify.app/"],
+        ["Day 26", "GiggleBits", "public/GiggleBits/index.html"],
+        ["Day 28", "Target Reflex Test", "public/Day-28_Target_Reflex_Test/index.html"],
+        ["Day 29", "Snake And Ladder Game", "public/Snake-and-Ladder-Game/index.html"],
+        ["Day 30", "Note Taker", "public/Day-42_NoteTaker/index.html"],
+        ["Day 31", "👾Alien Hunt", "public/Day-31/index.html"],
+        ["Day 32","Rock Paper Scissor Game" ,"public/Day-23_RockPaperScissor/index.html" ],
+        ["Day 34", "Colour Picker", "public/Day-34-Colour_picker/index.html"],
+        ["Day 32","Drawing" ,"public/Day-35-Drawing/index.html" ],
+        ["Day 33", "Etch-a-Sketch" ,"./public/Etch-a-Sketch/index.html"],
+        ["Day 34"," Periodic Table", "https://learn-periodic-table.netlify.app/"],
+        ["Day 35"," Book Recommendation", "https://book-recomendation.netlify.app/"]];
 
 
 
