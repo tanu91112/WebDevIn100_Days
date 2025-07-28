@@ -1,4 +1,4 @@
-# 💪 Day 32 – BMI Calculator
+# 💪BMI Calculator
 
 A beautifully modern, responsive **BMI Calculator** built using **HTML**, **CSS**, and **JavaScript**. Enhanced with smooth animations, dark/light mode support, and improved UI/UX for better interaction.
 
