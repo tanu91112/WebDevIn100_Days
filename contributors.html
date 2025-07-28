@@ -66,17 +66,16 @@
     .contributors-title {
       text-align: center;
       color: white;
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-weight: 700;
-      margin-bottom: 1rem;
-      text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-      animation: glow 2s ease-in-out infinite alternate;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      letter-spacing: 1px;
+      font-family: "Orbitron", sans-serif;
+      transition: transform 0.2s ease, text-shadow 0.2s ease;
     }
 
-    @keyframes glow {
-      from { text-shadow: 0 0 20px rgba(255, 255, 255, 0.5); }
-      to { text-shadow: 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.3); }
-    }
+
 
     .contributors-subtitle {
       text-align: center;
@@ -364,6 +363,67 @@
       margin-bottom: 2rem;
     }
 
+    /* Navbar brand text styling */
+    .navbar-brand-text {
+      color: #ffffff !important;
+      font-family: 'Orbitron', sans-serif !important;
+      transition: color 0.3s ease !important;
+    }
+
+    .navbar-brand-text:hover {
+      color: #f39c12 !important;
+    }
+
+    /* Navbar button styling to ensure black background with white text */
+    .navbar .button.is-dark {
+      background-color: #000000 !important;
+      color: #ffffff !important;
+      border-color: #000000 !important;
+    }
+
+    .navbar .button.is-dark:hover {
+      background-color: #333333 !important;
+      color: #ffffff !important;
+      border-color: #333333 !important;
+    }
+
+    .navbar .button.is-dark .icon {
+      color: #ffffff !important;
+    }
+
+    /* Special styling for Home button on hover */
+    .navbar .button.is-dark[href="index.html"]:hover {
+      background-color: #1e8449 !important;
+      color: #ffffff !important;
+      border-color: #1e8449 !important;
+    }
+
+    .navbar .button.is-dark[href="index.html"]:hover .icon {
+      color: #ffffff !important;
+    }
+
+    /* Special styling for GitHub button on hover */
+    .navbar .button.is-dark[href*="github.com"]:hover {
+      background-color: #1e8449 !important;
+      color: #ffffff !important;
+      border-color: #1e8449 !important;
+    }
+
+    .navbar .button.is-dark[href*="github.com"]:hover .icon {
+      color: #ffffff !important;
+    }
+
+    /* Special styling for Log in button on hover */
+    .navbar .button.is-dark[href*="Login.html"]:hover {
+      background-color: #1e8449 !important;
+      color: #ffffff !important;
+      border-color: #1e8449 !important;
+    }
+
+    .navbar .button.is-dark[href*="Login.html"]:hover .icon {
+      color: #ffffff !important;
+    }
+
     /* Responsive Design */
     @media (max-width: 768px) {
       .contributors-title {
@@ -394,9 +454,9 @@
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+  <nav class="navbar" role="navigation" aria-label="main navigation" style="background-color: rgb(0, 157, 219);">
     <div class="navbar-brand">
-      <a class="navbar-item has-text-weight-bold" href="index.html">
+      <a class="navbar-item has-text-weight-bold navbar-brand-text" href="index.html">
         <img src="https://i.pinimg.com/736x/1c/54/f7/1c54f7b06d7723c21afc5035bf88a5ef.jpg" alt="WebDev100_Days logo" />
         WebDev100_Days
       </a>
@@ -410,17 +470,17 @@
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-white is-outlined" href="index.html">
+            <a class="button is-dark" href="index.html">
               <span class="icon"><i class="fas fa-home"></i></span>
               <span>Home</span>
             </a>
-            <a class="button is-white is-outlined" href="contributors.html">
-              <span class="icon"><i class="fas fa-users"></i></span>
-              <span>Contributors</span>
-            </a>
-            <a class="button is-white is-outlined" href="https://github.com/ruchikakengal">
+            <a class="button is-dark" href="https://github.com/ruchikakengal">
               <span class="icon"><i class="fab fa-github"></i></span>
               <span>GitHub</span>
+            </a>
+            <a class="button is-dark" href="public/Login.html">
+              <span class="icon"><i class="fas fa-sign-in-alt"></i></span>
+              <span>Log in</span>
             </a>
           </div>
         </div>
