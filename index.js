@@ -134,6 +134,7 @@ function fillTable() {
         ["Day 34", "Colour Picker", "public/Day-34-Colour_picker/index.html"],
         ["Day 32","Drawing" ,"public/Day-35-Drawing/index.html" ],
         ["Day 33", "Etch-a-Sketch" ,"./public/Etch-a-Sketch/index.html"],
+        ["Day36","World Clock","public/World_Clock/index.html"]
     ];
 
 
