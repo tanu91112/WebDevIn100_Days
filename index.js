@@ -137,6 +137,7 @@ function fillTable() {
         ["Day 28", "Target Reflex Test", "public/Day-28_Target_Reflex_Test/index.html"],
         ["Day 29", "Snake And Ladder Game", "public/Snake-and-Ladder-Game/index.html"],
         ["Day 30", "Note Taker", "public/Day-42_NoteTaker/index.html"],
+        ["Day 31", "Word Guess Game, ""],
     ];
 
 
