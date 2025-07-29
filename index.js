@@ -139,6 +139,7 @@ function fillTable() {
         ["Day 36","World Clock","public/World_Clock/index.html"],
         ["Day36","World Clock","public/World_Clock/index.html"],
         ["Day 40", "Space War Game" ,"./public/Space-War-Game/index.html"],
+        ["Day 43", "CalRace" ,"./public/Day-45/index.html"],
         ["Day 44", "Notes App" ,"./public/Day-36_Notes_App/index.html"],];
 
 
