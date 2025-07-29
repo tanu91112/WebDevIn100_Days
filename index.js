@@ -134,7 +134,8 @@ function fillTable() {
         ["Day 34", "Colour Picker", "public/Day-34-Colour_picker/index.html"],
         ["Day 32","Drawing" ,"public/Day-35-Drawing/index.html" ],
         ["Day 33", "Etch-a-Sketch" ,"./public/Etch-a-Sketch/index.html"],
-    ];
+        ["Day 34"," Periodic Table", "https://learn-periodic-table.netlify.app/"],
+        ["Day 35"," Book Recommendation", "https://book-recomendation.netlify.app/"]];
 
 
 
