@@ -136,9 +136,10 @@ function fillTable() {
         ["Day 33", "Etch-a-Sketch" ,"./public/Etch-a-Sketch/index.html"],
         ["Day 34"," Periodic Table", "https://learn-periodic-table.netlify.app/"],
         ["Day 35"," Book Recommendation", "https://book-recomendation.netlify.app/"],
+        ["Day 36","World Clock","public/World_Clock/index.html"],
         ["Day36","World Clock","public/World_Clock/index.html"],
-      ["Day 40", "Space War Game" ,"./public/Space-War-Game/index.html"],
-    ];
+        ["Day 40", "Space War Game" ,"./public/Space-War-Game/index.html"],
+        ["Day 44", "Notes App" ,"./public/Day-36_Notes_App/index.html"],];
 
 
     const tbody = document.getElementById('tableBody');
