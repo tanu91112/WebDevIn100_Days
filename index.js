@@ -140,7 +140,7 @@ function fillTable() {
         ["Day 35"," Book Recommendation", "https://book-recomendation.netlify.app/"],
         ["Day 36","World Clock","public/World_Clock/index.html"],
         ["Day36","World Clock","public/World_Clock/index.html"],
-        ["Day 37", "Gradient Generator", "public/Gradient_Generator/index.html"],
+        ["Day 38", "Gradient Generator", "public/Gradient_Generator/index.html"],
         ["Day 40", "Space War Game" ,"./public/Space-War-Game/index.html"],
         ["Day 44", "Notes App" ,"./public/Day-36_Notes_App/index.html"],];
 
