@@ -136,6 +136,9 @@ function fillTable() {
         ["Day 33", "Etch-a-Sketch" ,"./public/Etch-a-Sketch/index.html"],
         ["Day 34"," Periodic Table", "https://learn-periodic-table.netlify.app/"],
         ["Day 35"," Book Recommendation", "https://book-recomendation.netlify.app/"]];
+        ["Day 36", "BMI Calculator", "/public/Day%2035%20BMI_CALCULATOR/index.html"],
+
+
 
 
 
