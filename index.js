@@ -135,10 +135,14 @@ function fillTable() {
         ["Day 34", "Colour Picker", "public/Day-34-Colour_picker/index.html"],
         ["Day 32","Drawing" ,"public/Day-35-Drawing/index.html" ],
         ["Day 33", "Etch-a-Sketch" ,"./public/Etch-a-Sketch/index.html"],
+
+        ["Day 34"," Periodic Table", "https://learn-periodic-table.netlify.app/"],
+        ["Day 35"," Book Recommendation", "https://book-recomendation.netlify.app/"],
+        ["Day 36","World Clock","public/World_Clock/index.html"],
+        ["Day36","World Clock","public/World_Clock/index.html"],
         ["Day 37", "Gradient Generator", "public/Gradient_Generator/index.html"],
-
-    ];
-
+        ["Day 40", "Space War Game" ,"./public/Space-War-Game/index.html"],
+        ["Day 44", "Notes App" ,"./public/Day-36_Notes_App/index.html"],];
 
 
     const tbody = document.getElementById('tableBody');
