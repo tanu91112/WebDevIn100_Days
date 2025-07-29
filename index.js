@@ -135,8 +135,8 @@ function fillTable() {
         ["Day 32","Drawing" ,"public/Day-35-Drawing/index.html" ],
         ["Day 33", "Etch-a-Sketch" ,"./public/Etch-a-Sketch/index.html"],
         ["Day 34"," Periodic Table", "https://learn-periodic-table.netlify.app/"],
-        ["Day 35"," Book Recommendation", "https://book-recomendation.netlify.app/"]];
-
+        ["Day 35"," Book Recommendation", "https://book-recomendation.netlify.app/"],
+        ["Day36","World Clock","public/World_Clock/index.html"]];
 
 
     const tbody = document.getElementById('tableBody');
