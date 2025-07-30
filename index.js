@@ -128,7 +128,7 @@ function fillTable() {
         ["Day 26", "GiggleBits", "public/GiggleBits/index.html"],
         ["Day 28", "Target Reflex Test", "public/Day-28_Target_Reflex_Test/index.html"],
         ["Day 29", "Snake And Ladder Game", "public/Snake-and-Ladder-Game/index.html"],
-        ["Day 30", "Note Taker", "public/Day-42_NoteTaker/index.html"],
+        ["Day 30", "Note Taker", "public/Day-42_NoteTaker/index.html"
         ["Day 31", "👾Alien Hunt", "public/Day-31/index.html"],
         ["Day 32","Rock Paper Scissor Game" ,"public/Day-23_RockPaperScissor/index.html" ],
         ["Day 34", "Colour Picker", "public/Day-34-Colour_picker/index.html"],
@@ -139,8 +139,10 @@ function fillTable() {
         ["Day 36","World Clock","public/World_Clock/index.html"],
         ["Day36","World Clock","public/World_Clock/index.html"],
         ["Day 40", "Space War Game" ,"./public/Space-War-Game/index.html"],
-        ["Day 44", "Notes App" ,"./public/Day-36_Notes_App/index.html"],];
-
+        ["Day 44", "Notes App" ,"./public/Day-36_Notes_App/index.html"],
+        ["Day 45", "Word Guess Game", "public/Wordle_Based_Game/index.html"],
+        ["Day 46", "E-Commerce UI", "public/E-Commerce UI/index.html"],
+        ];
 
     const tbody = document.getElementById('tableBody');
     tbody.innerHTML = '';
