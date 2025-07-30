@@ -142,9 +142,13 @@ function fillTable() {
         ["Day36","World Clock","public/World_Clock/index.html"],
         ["Day 38", "Gradient Generator", "public/Gradient_Generator/index.html"],
         ["Day 40", "Space War Game" ,"./public/Space-War-Game/index.html"],
+
+        ["Day 49", "CalRace" ,"./public/Day-45/index.html"],
+
         ["Day 44", "Notes App" ,"./public/Day-36_Notes_App/index.html"],
         ["Day 47", "Pomodoro App", "/public/Day-47_Pomodoro-app/index.html"]
     ];
+
 
 
     const tbody = document.getElementById('tableBody');
