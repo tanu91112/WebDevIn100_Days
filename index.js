@@ -61,7 +61,7 @@ function updateNavbar() {
             </span>
             <span>GitHub</span>
         </a>
-        <a class="button is-primary is-dark" href="contributors/contributor.html">
+        <a class="button is-primary is-dark" href="contributors.html">
             <span class="icon">
                 <i class="fas fa-users"></i>
             </span>
@@ -76,7 +76,7 @@ function updateNavbar() {
         });
     } else {
         buttons.innerHTML = `
-        <a class="button is-primary is-dark" href="contributors/contributor.html">
+        <a class="button is-primary is-dark" href="contributors.html">
             <span class="icon">
                 <i class="fas fa-users"></i>
             </span>
@@ -129,13 +129,11 @@ function fillTable() {
         ["Day 28", "Target Reflex Test", "public/Day-28_Target_Reflex_Test/index.html"],
         ["Day 29", "Snake And Ladder Game", "public/Snake-and-Ladder-Game/index.html"],
         ["Day 30", "Note Taker", "public/Day-42_NoteTaker/index.html"],
-
         ["Day 31", "👾Alien Hunt", "public/Day-31/index.html"],
         ["Day 32","Rock Paper Scissor Game" ,"public/Day-23_RockPaperScissor/index.html" ],
         ["Day 34", "Colour Picker", "public/Day-34-Colour_picker/index.html"],
         ["Day 32","Drawing" ,"public/Day-35-Drawing/index.html" ],
         ["Day 33", "Etch-a-Sketch" ,"./public/Etch-a-Sketch/index.html"],
-
           ["Day 34"," Periodic Table", "https://learn-periodic-table.netlify.app/"],
           ["Day 35", "Book Recommendation", "https://book-recomendation.netlify.app/"],
           ["Day 36", "World Clock", "public/World_Clock/index.html"],
@@ -153,7 +151,6 @@ function fillTable() {
           ["Day 53", "Word Guess Game"," public/Day53-Word-Guess-Game/index.html"],
           ["Day 57", "4 in a Row", "public/Day-57_4_in_a_row/index.html"],
     ];
-
 
     const tbody = document.getElementById('tableBody');
     tbody.innerHTML = '';
