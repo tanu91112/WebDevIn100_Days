@@ -148,7 +148,9 @@ function fillTable() {
           ["Day 48", "Space Jumper Game", "./public/Space-Jumper-Game/index.html"],
           ["Day 49", "CalRace", "./public/Day-45/index.html"],
           ["Day 50", "BMI Calculator", "./public/Day-50_BMI_Calculator_Tanu/index.html"],
-          ["Day 51", "Chess", "/public/Day-51/index.html"]
+          ["Day 51", "Chess", "/public/Day-51/index.html"],
+          ["Day 52", "E-Commerce_UI", "public/Day52_E-Commerce_UI/index.html"],
+          ["Day 53", "Word Guess Game"," public/Day53-Word-Guess-Game/index.html"],
         ];
 
 
