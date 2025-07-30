@@ -140,7 +140,9 @@ function fillTable() {
         ["Day36","World Clock","public/World_Clock/index.html"],
         ["Day 40", "Space War Game" ,"./public/Space-War-Game/index.html"],
         ["Day 44", "Notes App" ,"./public/Day-36_Notes_App/index.html"],
-        ["Day 45", "Word Guess Game", "public/Wordle_Based_Game/index.html"],]
+        ["Day 45", "Word Guess Game", "public/Wordle_Based_Game/index.html"],
+        ["Day 46", "E-Commerce UI", "public/E-Commerce UI/index.html"],
+        ];
 
     const tbody = document.getElementById('tableBody');
     tbody.innerHTML = '';
