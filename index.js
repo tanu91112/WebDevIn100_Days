@@ -136,20 +136,19 @@ function fillTable() {
         ["Day 32","Drawing" ,"public/Day-35-Drawing/index.html" ],
         ["Day 33", "Etch-a-Sketch" ,"./public/Etch-a-Sketch/index.html"],
 
-        ["Day 34"," Periodic Table", "https://learn-periodic-table.netlify.app/"],
-[
-  ["Day 35", "Book Recommendation", "https://book-recomendation.netlify.app/"],
-  ["Day 36", "World Clock", "public/World_Clock/index.html"],
-  ["Day36", "World Clock", "public/World_Clock/index.html"],
-  ["Day 38", "Gradient Generator", "public/Gradient_Generator/index.html"],
-  ["Day 40", "Space War Game", "./public/Space-War-Game/index.html"],
-  ["Day 44", "Notes App", "./public/Day-36_Notes_App/index.html"],
-  ["Day 47", "Pomodoro App", "/public/Day-47_Pomodoro-app/index.html"],
-  ["Day 48", "Space Jumper Game", "./public/Space-Jumper-Game/index.html"],
-  ["Day 49", "CalRace", "./public/Day-45/index.html"],
-  ["Day 50", "BMI Calculator", "./public/Day-50_BMI_Calculator_Tanu/index.html"],
-  ["Day 51", "Chess", "/public/Day-51/index.html"]
-];
+          ["Day 34"," Periodic Table", "https://learn-periodic-table.netlify.app/"],
+          ["Day 35", "Book Recommendation", "https://book-recomendation.netlify.app/"],
+          ["Day 36", "World Clock", "public/World_Clock/index.html"],
+          ["Day36", "World Clock", "public/World_Clock/index.html"],
+          ["Day 38", "Gradient Generator", "public/Gradient_Generator/index.html"],
+          ["Day 40", "Space War Game", "./public/Space-War-Game/index.html"],
+          ["Day 44", "Notes App", "./public/Day-36_Notes_App/index.html"],
+          ["Day 47", "Pomodoro App", "/public/Day-47_Pomodoro-app/index.html"],
+          ["Day 48", "Space Jumper Game", "./public/Space-Jumper-Game/index.html"],
+          ["Day 49", "CalRace", "./public/Day-45/index.html"],
+          ["Day 50", "BMI Calculator", "./public/Day-50_BMI_Calculator_Tanu/index.html"],
+          ["Day 51", "Chess", "/public/Day-51/index.html"]
+        ];
 
 
 
