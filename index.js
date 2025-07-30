@@ -142,6 +142,7 @@ function fillTable() {
           ["Day36", "World Clock", "public/World_Clock/index.html"],
           ["Day 38", "Gradient Generator", "public/Gradient_Generator/index.html"],
           ["Day 40", "Space War Game", "./public/Space-War-Game/index.html"],
+          ["Day 42", "Student Grade Analyzer", "./public/Student_Grade_Analyzer/index.html"],
           ["Day 44", "Notes App", "./public/Day-36_Notes_App/index.html"],
           ["Day 46", "Mood Based Music Suggester", "./public/Mood_Music_Suggester/index.html"],
           ["Day 47", "Pomodoro App", "/public/Day-47_Pomodoro-app/index.html"],
@@ -152,6 +153,7 @@ function fillTable() {
           ["Day 52", "E-Commerce_UI", "public/Day52_E-Commerce_UI/index.html"],
           ["Day 53", "Word Guess Game"," public/Day53-Word-Guess-Game/index.html"],
         ];
+
 
 
 
