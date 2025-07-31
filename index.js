@@ -135,7 +135,6 @@ function fillTable() {
         ["Day 34", "Colour Picker", "public/Day-34-Colour_picker/index.html"],
         ["Day 32","Drawing" ,"public/Day-35-Drawing/index.html" ],
         ["Day 33", "Etch-a-Sketch" ,"./public/Etch-a-Sketch/index.html"],
-
           ["Day 34"," Periodic Table", "https://learn-periodic-table.netlify.app/"],
           ["Day 35", "Book Recommendation", "https://book-recomendation.netlify.app/"],
           ["Day 36", "World Clock", "public/World_Clock/index.html"],
@@ -151,10 +150,8 @@ function fillTable() {
           ["Day 51", "Chess", "/public/Day-51/index.html"],
           ["Day 52", "E-Commerce_UI", "public/Day52_E-Commerce_UI/index.html"],
           ["Day 53", "Word Guess Game"," public/Day53-Word-Guess-Game/index.html"],
-        ];
-
-
-
+          ["Day 57", "4 in a Row", "public/Day-57_4_in_a_row/index.html"],
+    ];
 
     const tbody = document.getElementById('tableBody');
     tbody.innerHTML = '';
