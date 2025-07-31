@@ -142,6 +142,7 @@ function fillTable() {
           ["Day 38", "Gradient Generator", "public/Gradient_Generator/index.html"],
           ["Day 40", "Space War Game", "./public/Space-War-Game/index.html"],
           ["Day 42", "Student Grade Analyzer", "./public/Student_Grade_Analyzer/index.html"],
+          ["Day 43", "Fitness Tracker (Steps + Water)", "./public/Fitness_Tracker/index.html"],
           ["Day 44", "Notes App", "./public/Day-36_Notes_App/index.html"],
           ["Day 46", "Mood Based Music Suggester", "./public/Mood_Music_Suggester/index.html"],
           ["Day 47", "Pomodoro App", "/public/Day-47_Pomodoro-app/index.html"],
