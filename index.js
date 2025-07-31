@@ -150,7 +150,7 @@ function fillTable() {
           ["Day 50", "BMI Calculator", "./public/Day-50_BMI_Calculator_Tanu/index.html"],
           ["Day 51", "Chess", "/public/Day-51/index.html"],
           ["Day 52", "E-Commerce_UI", "public/Day52_E-Commerce_UI/index.html"],
-          ["Day 53", "Word Guess Game"," public/Day53-Word-Guess-Game/index.html"],["Day70","Day-70 Memory Game App","./public/Day-70 Memory Game App/index.html"]
+          ["Day 53", "Word Guess Game"," public/Day53-Word-Guess-Game/index.html"],["Day 57", "4 in a Row", "public/Day-57_4_in_a_row/index.html"],["Day70","Memory Game App","./public/Memory Game App/index.html"]
         ];
 
 

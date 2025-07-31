@@ -2,7 +2,6 @@
 
 A fun and interactive **Flip Card Memory Game** built with **HTML, CSS, and JavaScript**. Match all the pairs before the timer runs out!
 
-![memory-game-preview](https://user-images.githubusercontent.com/your-image-url/memory-game-preview.gif)
 
 ## 🚀 Features
 
