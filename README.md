@@ -2,6 +2,22 @@
 
 Welcome to **100_days_100_web_project** – a challenge-based repository to **learn** and **practice** web development by building **100+ mini projects** using **HTML, CSS, and JavaScript**. This journey goes from **basic** to **intermediate** level with fun and interactive web applications!
 
+---
+![Visitors](https://api.visitorbadge.io/api/visitors?path=ruchikakengal/WebDevIn100_days)
+![Languages](https://img.shields.io/github/languages/count/ruchikakengal/WebDevIn100_days?color=20B2AA)
+![Stars](https://img.shields.io/github/stars/ruchikakengal/WebDevIn100_days)
+![Contributors](https://img.shields.io/github/contributors/ruchikakengal/WebDevIn100_days)
+![Issues](https://img.shields.io/github/issues/ruchikakengal/WebDevIn100_days)
+![Closed Issues](https://img.shields.io/github/issues-closed-raw/ruchikakengal/WebDevIn100_days)
+![Forks](https://img.shields.io/github/forks/ruchikakengal/WebDevIn100_days)
+![PRs](https://img.shields.io/github/issues-pr/ruchikakengal/WebDevIn100_days)
+![Closed PRs](https://img.shields.io/github/issues-pr-closed/ruchikakengal/WebDevIn100_days)
+![Last Commit](https://img.shields.io/github/last-commit/ruchikakengal/WebDevIn100_days)
+![Repo Size](https://img.shields.io/github/repo-size/ruchikakengal/WebDevIn100_days)
+![Total Lines](https://sloc.xyz/github/ruchikakengal/WebDevIn100_days)
+
+---
+
 ## 🚀 Open Source Programs
 
 [![GSSoC](https://img.shields.io/badge/GSSoC-2025-orange?style=for-the-badge)](https://gssoc.girlscript.tech/)
