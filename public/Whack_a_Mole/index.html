@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Whack-a-Mole — SSOC'25 Project</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <h1 class="title">Whack-a-Mole</h1>
+      <div class="controls">
+        <div class="stat">
+          <span class="label">Score</span>
+          <span id="score">0</span>
+        </div>
+        <div class="stat">
+          <span class="label">Lives</span>
+          <span id="lives">3</span>
+        </div>
+        <div class="stat">
+          <span class="label">High</span>
+          <span id="highscore">0</span>
+        </div>
+        <button id="startBtn" class="btn">Start</button>
+        <button id="pauseBtn" class="btn ghost">Pause</button>
+        <label class="toggle">
+          <input id="themeToggle" type="checkbox" aria-label="Toggle dark mode" />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </header>
+
+    <main class="game-area" role="application" aria-label="Whack a mole game">
+      <section class="board" id="board" aria-live="polite">
+        <!-- holes will be injected by JS -->
+      </section>
+
+      <aside class="sidepanel">
+        <div class="card">
+          <h3>How to play</h3>
+          <ol>
+            <li>Click or tap the mole when it pops up.</li>
+            <li>Missed moles cost a life.</li>
+            <li>Game gets faster as you score more.</li>
+          </ol>
+        </div>
+
+        <div class="card">
+          <h3>Settings</h3>
+          <label>Holes:
+            <select id="holesSelect" aria-label="Number of holes">
+              <option value="6">6</option>
+              <option value="9" selected>9</option>
+              <option value="12">12</option>
+            </select>
+          </label>
+          <label>Starting speed:
+            <input id="speedRange" type="range" min="400" max="1200" step="50" value="900" />
+          </label>
+        </div>
+      </aside>
+    </main>
+
+    <div id="overlay" class="overlay hidden" role="dialog" aria-modal="true">
+      <div class="modal">
+        <h2 id="modalTitle">Game Over</h2>
+        <p id="modalMsg">Your score: <strong id="finalScore">0</strong></p>
+        <div class="modal-actions">
+          <button id="restartBtn" class="btn">Play Again</button>
+          <button id="closeModal" class="btn ghost">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <small>Made by <strong>@tanu91112</strong> · Elegant UI · SSOC'25</small>
+    </footer>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
