@@ -1598,6 +1598,22 @@ class WebDev100Days {
             "Attractive gradients, shadows, and game-like polish"
           ]
         },
+        {
+          "originalDay": 163,
+          "name": "Whack-a-Mole",
+          "description": "A fun arcade-style game where players must click the mole before it disappears. The game speeds up as you score higher, testing your reflexes and focus.",
+          "demoLink": "./public/Whack_a_Mole/index.html",
+          "category": "games",
+          "technologies": ["HTML", "CSS", "JavaScript"],
+          "features": [
+            "Dynamic board with selectable holes",
+            "Score, lives, and high score tracking",
+            "Pause, Resume, and Restart options",
+            "Dark and light mode support",
+            "Responsive modern UI with smooth animations"
+          ]
+        }
+        ,
 
           {
            originalDay:150, 
